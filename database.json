@@ -1,0 +1,154 @@
+{
+  "films": [
+    {
+      "uuid": "f123",
+      "name": "Wonder woman",
+      "type": "action",
+      "year": 2017,
+      "rate": 8.65,
+      "length": "2:30",
+      "country": "USA",
+      "link": "https://filmi.uz/films/i/7614-wonder-woman.html",
+      "pic": "src/123.jpg",
+      "cinemas": ["c1vega", "c1salom", "c1next"]
+    },
+    {
+      "uuid": "f234",
+      "name": "Oxirgi Brilliant",
+      "type": "action",
+      "year": 2014,
+      "rate": 7.24,
+      "length": "1:40",
+      "country": "UZB",
+      "link": "https://filmi.uz/films/l/9932-oxirgi-brilliant-posledniy-brilliant.html",
+      "pic": "src/123.jpg",
+      "cinemas": ["c1asia", "c1salom", "c1navoi"]
+    },
+    {
+      "uuid": "f345",
+      "name": "Omadsizlar",
+      "type": "comedy",
+      "year": 1998,
+      "rate": 6.90,
+      "length": "1:50",
+      "country": "RUS",
+      "link": "https://filmi.uz/films/i/10683-omadsizlar-nevezuchie.html",
+      "pic": "src/123.jpg",
+      "cinemas": ["c1vega", "c1navoi", "c1hall", "c1mega"]
+    },
+    {
+      "uuid": "f456",
+      "name": "Akvamen",
+      "type": "comedy",
+      "year": 2008,
+      "rate": 6.90,
+      "length": "2:12",
+      "country": "RUS",
+      "link": "https://filmi.uz/films/ll/10484-akvamen-hd.html",
+      "pic": "src/123.jpg",
+      "cinemas": ["c1vega", "c1navoi", "c1hall", "c1mega", "c1vega", "c1royal", "c1drive"]
+    }
+  ],
+  "cinemas": [
+    {
+      "uuid": "c1asia",
+      "name": "Asia Cinema",
+      "location": {
+        "latitude": 41.365499,
+        "longitude": 69.280286
+      },
+      "url": "https://www.asiacinema.uz",
+      "films": ["f123", "f234"]
+    },
+    {
+      "uuid": "c1mega",
+      "name": "Mega Cinema",
+      "location": {
+        "latitude": 41.367855,
+        "longitude": 69.291451
+      },
+      "url": "https://www.megacinema.uz",
+      "films": ["f123", "f234", "f345"]
+    },
+    {
+      "uuid": "c1drive",
+      "name": "Drive Cinema",
+      "location": {
+        "latitude": 41.330233,
+        "longitude": 69.266106
+      },
+      "url": "https://www.drivecinema.uz",
+      "films": ["f123", "f234", "f456"]
+    },
+    {
+      "uuid": "c1navoi",
+      "name": "Alisher Navoi",
+      "location": {
+        "latitude": 41.320449,
+        "longitude": 69.259354
+      },
+      "url": "https://www.kinopanorama.uz",
+      "films": ["f123", "f234", "f345", "f456"]
+    },
+    {
+      "uuid": "c1next",
+      "name": "Next Cinema",
+      "location": {
+        "latitude": 41.298865,
+        "longitude": 69.249308
+      },
+      "url": "https://www.nextmall.uz",
+      "films": ["f123", "f234", "f345"]
+    },
+    {
+      "uuid": "c1parus",
+      "name": "Parus Cinema",
+      "location": {
+        "latitude": 41.294671,
+        "longitude": 69.211059
+      },
+      "url": "https://www.nextmall.uz",
+      "films": ["f345", "f234"]
+    },
+    {
+      "uuid": "c1phall",
+      "name": "Premier Hall Cinema",
+      "location": {
+        "latitude": 41.296734,
+        "longitude": 69.269087
+      },
+      "url": "https://www.premier-hall.uz",
+      "films": ["f123", "f345"]
+    },
+    {
+      "uuid": "c1royal",
+      "name": "Royal Cinema",
+      "location": {
+        "latitude": 41.316431,
+        "longitude": 69.231566
+      },
+      "url": "https://www.nextmall.uz",
+      "films": ["f456", "f234"]
+    },
+    {
+      "uuid": "c1salom",
+      "name": "Salom Cinema",
+      "location": {
+        "latitude": 41.329310,
+        "longitude": 69.343514
+      },
+      "url": "https://www.afisha.uz",
+      "films": ["f123", "f456"]
+    },
+    {
+      "uuid": "c1vega",
+      "name": "Vega Cinema",
+      "location": {
+        "latitude": 41.260124,
+        "longitude": 69.223628
+      },
+      "url": "https://www.tcvega.uz",
+      "films": ["f123", "f234"]
+    }
+  ]
+}
